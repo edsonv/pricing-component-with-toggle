@@ -6,6 +6,8 @@
   position: relative;
   cursor: pointer;
   background-image: linear-gradient(to right, hsl(var(--clr-gradient-start)), hsl(var(--clr-gradient-end)));
+  box-shadow: 1px 1px 20px rgba(0,0,0,.1);
+
 
   input {
     position: absolute;

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pricing-component-with-toggle/static/css/main.bdd724e2.chunk.css",
+    "main.css": "/pricing-component-with-toggle/static/css/main.abc718d0.chunk.css",
     "main.js": "/pricing-component-with-toggle/static/js/main.53fa3909.chunk.js",
     "main.js.map": "/pricing-component-with-toggle/static/js/main.53fa3909.chunk.js.map",
     "runtime-main.js": "/pricing-component-with-toggle/static/js/runtime-main.9b74521a.js",
@@ -8,14 +8,14 @@
     "static/js/2.18e0762a.chunk.js": "/pricing-component-with-toggle/static/js/2.18e0762a.chunk.js",
     "static/js/2.18e0762a.chunk.js.map": "/pricing-component-with-toggle/static/js/2.18e0762a.chunk.js.map",
     "index.html": "/pricing-component-with-toggle/index.html",
-    "static/css/main.bdd724e2.chunk.css.map": "/pricing-component-with-toggle/static/css/main.bdd724e2.chunk.css.map",
+    "static/css/main.abc718d0.chunk.css.map": "/pricing-component-with-toggle/static/css/main.abc718d0.chunk.css.map",
     "static/js/2.18e0762a.chunk.js.LICENSE.txt": "/pricing-component-with-toggle/static/js/2.18e0762a.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/pricing-component-with-toggle/static/media/bg-top.4980c1fd.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9b74521a.js",
     "static/js/2.18e0762a.chunk.js",
-    "static/css/main.bdd724e2.chunk.css",
+    "static/css/main.abc718d0.chunk.css",
     "static/js/main.53fa3909.chunk.js"
   ]
 }

@@ -1,0 +1,25 @@
+/* --------------------- */
+/* Custom properties     */
+/* --------------------- */
+:root {
+  /* colors */
+  --clr-gradient-start: 236 72% 79%;
+  --clr-gradient-end: 237 63% 64%;
+  --clr-very-light-grayish-blue: 240 80% 98%;
+  --clr-light-grayish-blue: 234 14% 74%;
+  --clr-grayish-blue: 233 13% 49%;
+  --clr-dark-grayish-blue: 232 13% 33%;
+  --clr-white: 0 0% 100%;
+
+  /* font-sizes */
+  font-size: 15px;
+  --fs-800: 4.833rem; // 72.5px
+  --fs-700: 2.667rem; // 40px
+  --fs-600: 2rem; // 30px
+  --fs-500: 1.25rem; // 18.75px
+  --fs-400: 1rem; // 15 px
+  --fs-300: 0.833rem; // 12.5
+
+  /* font-families */
+  --ff-sans: 'Montserrat', sans-serif;
+}

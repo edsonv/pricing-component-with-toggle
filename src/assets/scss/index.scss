@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+@import './01-settings/Settings.scss';
+@import './03-generic/Reset.scss';
+@import './07-components/Components.scss';
+@import './08-utilities/Utilities.scss';
+
+body {
+  display: flex;
+  align-items: center;
+  background: url('../images/bg-top.svg') top right no-repeat, hsl(var(--clr-very-light-grayish-blue)) url('../images/bg-bottom.svg') bottom left no-repeat;
+  
+  @media screen and (max-width: 900px) {
+    background: url('../images/bg-top.svg') 50vw -3% no-repeat, hsl(var(--clr-very-light-grayish-blue)) url('../images/bg-bottom.svg') bottom left no-repeat;
+  }
+}

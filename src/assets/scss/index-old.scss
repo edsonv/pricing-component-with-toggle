@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import './01-settings/settings.scss';
+@import './03-generic/reset.scss';
+
+
+.u-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.u-bg-white {
+  background-color: #ffffff;
+}
+
+.u-bg-accent {
+  background-image: linear-gradient(rgba(105, 111, 221,.6), #696fdd);
+}
+
+.u-text-dark {
+  color: #6d708dff;
+}
+
+.u-text-white {
+  color: #ffffff;
+}
+
+.card {
+  text-align: center;
+  font-weight: 700;
+  padding: 30px;
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.card-title {
+  margin-bottom: 30px;
+}
+
+.card-price {
+  font-size: 54px;
+  margin-bottom: 40px;
+}
+
+.card-price-symbol {
+  vertical-align: middle;
+  font-size: 35px;
+}
+
+.card-list {
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+.u-bg-white .card-list-item:not(:nth-child(3)) {
+  border-top: 1px solid $light-grayish-blue;
+}
+
+.u-bg-white .card-list-item:not(:nth-child(1)) {
+  border-bottom: 1px solid $light-grayish-blue;
+}
+
+.u-bg-accent .card-list-item:not(:nth-child(3)) {
+  border-top: 1px solid #ffffff;
+}
+
+.u-bg-accent .card-list-item:not(:nth-child(1)) {
+  border-bottom: 1px solid #ffffff;
+}
+
+.card-list-item {
+  padding: 20px;
+}
+
+.card-button {
+  text-transform: uppercase;
+  padding: 15px 0;
+  width: 100%;
+  font-weight: 700;
+}
+
+.u-bg-white .card-button {
+  background-image: linear-gradient(to right,rgba(105, 111, 221,.6), #696fdd);
+  color: #ffffff;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+
+.u-bg-accent .card-button {
+  background-color: #ffffff;
+  color: $grayish-blue;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}

@@ -1,0 +1,45 @@
+.c-checkbox {
+  display: inline-block;
+  height: 32px;
+  aspect-ratio: 2;
+  border-radius: 32px;
+  position: relative;
+  cursor: pointer;
+  background-image: linear-gradient(to right, hsl(var(--clr-gradient-start)), hsl(var(--clr-gradient-end)));
+
+  input {
+    position: absolute;
+    clip: rect(0,0,0,0);
+
+    & + div {
+      position: absolute;
+      top: 3px;
+      right: 2px;
+      bottom: 1px;
+      left: 4px;
+      border-radius: 26px;
+      transition: all 300ms;
+
+      &::before {
+        content: '';
+        cursor: pointer;
+        display: inline-block;
+        width: 26px;
+        aspect-ratio: 1;
+        background-color: white;
+        border-radius: 26px;
+        transition: all 300ms ease-in-out;
+      }
+    }
+
+    &:checked + div {
+      &::before {
+        margin-left: 30px;
+      }
+    }
+  }
+}
+
+.c-checkbox:hover {
+  opacity: .9;
+}
